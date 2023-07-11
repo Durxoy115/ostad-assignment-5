@@ -8,7 +8,7 @@ const Contents = () => {
       };
       const handleChange = (event) => {
         setText(event.target.value);
-        
+        setText('');
       };
     return (
         <div>
