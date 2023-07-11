@@ -5,10 +5,11 @@ const Contents = () => {
     const [displayedText, setDisplayedText] = useState('');
     const handleClick = () => {
         setDisplayedText(text);
+        setText('');
       };
       const handleChange = (event) => {
         setText(event.target.value);
-        setText('');
+        
       };
     return (
         <div>
